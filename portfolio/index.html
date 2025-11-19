@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Iago Mendes - Front-End Dev</title>
+    <link rel="icone" href="i-icon.png" type="image">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='inicial.js'></script>
+</head>
+<script>
+window.addEventListener('scroll', function() {
+  const nav = document.querySelector('.nav__header');
+  if (window.scrollY > 50) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+});
+</script>
+<body>
+        <header class="header">
+          <div class="sobreposição__header">
+            <div class="header__container">
+              <nav class="nav__header" role="navigation">
+                <ul class="header__list">
+                  <li class="header__itens">
+                    <a class="header__item" href="#home">Início</a>
+                  </li>
+                  <li class="header__itens">
+                    <a class="header__item" href="#about">Sobre</a>
+                  </li>
+                  <li class="header__itens">
+                    <a class="header__item" href="#contact">Contato</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+      
+        <main class="main">
+          <div class="main__content">
+            <div class="main__tittle">
+              <h1>Iago Mendes Nascimento</h1>
+              <h3 class="main__effect">Estudante de Ciência da Computação</h3>
+            </div>
+            <ul class="main__social">
+              <li>
+                <a class="main__btn" href="https://github.com/LucardDS" target="_blank">
+                  <img class="main__github" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN0Uu0auB-_30X62d-vUYM-jhN4TkqPqgv6A&usqp=CAU" alt="icon-github">
+                </a>
+              </li>
+              <li>
+                <a class="main__btn" href="https://www.figma.com/files/recent?fuid=1073191721875839042" target="_blank">
+                  <img class="main__figma" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="icon-figma"/>
+                </a>
+              </li>
+              <li>
+                <a class="main__btn" href="https://discord.com/" target="_blank">
+                  <img class="main__canva" src="https://www.svgrepo.com/show/353655/discord-icon.svg" alt="icon-disc">
+                </a>
+              </li>
+              <li>
+                <a class="main__btn" href="https://www.linkedin.com/in/iago-mendes-nascimento-62b3b2231/" target="_blank">
+                  <img class="main__linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="icon-linkedin">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </main>
+      
+        <section id="about">
+          <div class="about__container">
+            <div class="about__h2" style="color: whitesmoke;">
+              <h2>Um pouco sobre mim...</h2>
+            </div>
+      
+            <div class="about__info">
+              <div class="about__p" style="color: whitesmoke;">
+                <p> Olá! Meu nome é <b>Iago</b>, sou estudante de desenvolvimento front-end e aprender e me aperfeico como possível nessa área. Comecei na área da programação em 2022, afim de desenvolver minhas habilidades na area de TI como um todo, e agora procuro me aprofundar nesse ramo.
+            </div>
+      
+            <div class="about__skills" style="color: whitesmoke;">
+              <h4>Skills: </h4>
+              <p class="about__languages">Linguagens: </p>
+              <ul class="about__list">
+                <li class="about__badges">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg">
+                </li>
+                <li class="about__badges">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg">
+                </li>
+                <li class="about__badges">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg">
+                </li>
+                <li class="about__badges">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+                </li>
+              </ul>
+              <p class="about__languages">Ferramentas: </p>
+              <ul class="about__list">
+                <li class="about__badges">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" />
+                </li>
+                <li class="about__badges">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
+                </li>
+                <li class="about__badges"> 
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" />
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+        <footer class="footer">
+          <p>(+55) 31 9538-8226</p>
+        </footer>
+        </section>
+</body>
+</html>
